@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://dbatu.ac.in/wp-content/uploads/2023/08/YcgHd1ci.jpeg'); /* External image URL */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Full height of the viewport */
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #qrcode {
+    margin-top: 20px;
+  }
+  

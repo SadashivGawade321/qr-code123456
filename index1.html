@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator for Attendance</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styles1.css">
+  <!-- Include QRCode.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Generate QR Code</h1>
+    <form id="qrForm">
+      <input type="text" id="studentName" placeholder="Enter Student Name" required>
+      <input type="text" id="prnNumber" placeholder="Enter PRN Number" required>
+      <button type="submit">Generate QR Code</button>
+    </form>
+    <div id="qrcode"></div>
+  </div>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script1.js"></script>
+</body>
+</html>
